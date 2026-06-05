@@ -67,10 +67,8 @@ export default function Header() {
                       : "text-zinc-500 hover:bg-white/5 hover:text-white"
                   }`}
                 >
-                  {/* Clean standard icon names */}
-                  <span className="text-[10px] font-bold uppercase tracking-wider">
-                    {item.label.substring(0, 2)}
-                  </span>
+                  {/* Render Icon instead of alphabets */}
+                  <Icon name={item.icon} className="h-5 w-5" />
                 </a>
                 
                 {/* Desktop Hover Tooltip (Positioned to the left of the right dock) */}
