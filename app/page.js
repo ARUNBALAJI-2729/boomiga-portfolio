@@ -9,10 +9,14 @@ import Designs from "@/components/sections/Designs";
 import Contact from "@/components/sections/Contact";
 import Footer from "@/components/Footer";
 import WhatsAppWidget from "@/components/WhatsAppWidget";
+import LoadingScreen from "@/components/LoadingScreen";
 
 export default function Home() {
   return (
     <div className="relative min-h-screen bg-transparent text-white selection:bg-cyan-500 selection:text-white">
+      {/* Page Preloader */}
+      <LoadingScreen />
+
       {/* Particle background layers */}
       <ParticleBackground />
 
