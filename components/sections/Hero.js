@@ -59,13 +59,13 @@ export default function Hero() {
             Hi, I'm <span className="font-semibold text-white hover:text-cyan-400 transition-colors">Boomiga S</span> — a UI/UX and brand designer passionate about creating seamless digital experiences that connect and convert.
           </p>
           <a
-            href="#design-gallery"
+            href="#my-work"
             className="group flex items-center gap-3 rounded-full bg-gradient-to-r from-violet-600 to-cyan-500 p-1.5 pr-6 font-semibold text-white shadow-lg shadow-violet-600/25 transition-all duration-300 hover:scale-105 hover:shadow-cyan-500/30"
           >
             <span className="flex h-10 w-10 items-center justify-center rounded-full bg-white text-cyan-600 transition-transform group-hover:translate-x-1">
               &rarr;
             </span>
-            See my designs
+            See my work
           </a>
         </div>
       </div>

@@ -84,7 +84,7 @@ export default function Designs() {
   const marqueeItems2 = getMarqueeItems(oddDesigns);
 
   return (
-    <section id="design-gallery" className="relative bg-transparent py-28 overflow-hidden">
+    <section id="my-work" className="relative bg-transparent py-28 overflow-hidden">
       {/* Background decoration */}
       <div className="absolute top-[30%] right-[-10%] h-[350px] w-[350px] rounded-full bg-cyan-500/5 blur-[120px] pointer-events-none" />
 
@@ -92,7 +92,7 @@ export default function Designs() {
         {/* Section Heading */}
         <div className="mb-12 text-center">
           <h2 className="text-4xl font-extrabold tracking-tight text-white md:text-5xl">
-            Design <span className="bg-gradient-to-r from-violet-400 to-cyan-400 bg-clip-text text-transparent">Gallery</span>
+            My <span className="bg-gradient-to-r from-violet-400 to-cyan-400 bg-clip-text text-transparent">Work</span>
           </h2>
           <div className="mt-2 h-1 w-20 bg-gradient-to-r from-violet-500 to-cyan-500 mx-auto rounded-full" />
           <p className="mx-auto mt-4 max-w-2xl text-zinc-300 text-sm md:text-base">
